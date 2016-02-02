@@ -8,7 +8,7 @@
    * [Install Xilinx Tools](chapters/xilinx-tools.md)
 * [Getting Started](chapters/quick-start.md)
 * [Reference Design](chapters/ref-design.md)
-   * OpenFlowSwitch-HWFT
+   * [OpenFlowSwitch-HWFT](chapters/openflowswitch-hwft.md)
 * [Hardware Design](chapters/hardware-design.md)
 * [Software Design](chapters/software-design.md)
 * [Miscellaneous](chapters/docs.md)
