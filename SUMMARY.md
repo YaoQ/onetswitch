@@ -7,6 +7,6 @@
    * [Install Xilinx Tools](chapters/xilinx-tools.md)
 * [Getting Started](chapters/quick-start.md)
 * [repo](chapters/repo.md)
-* [Refernce Design](chapters/ref-design.md)
+* [Reference Design](chapters/ref-design.md)
 * [Hardware Design](chapters/hardware-design.md)
 
