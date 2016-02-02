@@ -1,8 +1,19 @@
 # Miscellaneous
 
+## ONetSwitch repositories
+* [Getting-Started projects and reference designs for ONetSwitch30](https://github.com/MeshSr/onetswitch30)
+* [ONetSwitch series wiki](https://github.com/MeshSr/wiki)
+* [The official Linux kernel for MeshSr ONetSwitch](https://github.com/MeshSr/linux-meshsr)
+* [common binaries for quick getting-started](https://github.com/MeshSr/common-bin)
+* [The official u-boot for MeshSr ONetSwitch](https://github.com/MeshSr/u-boot-meshsr)
+* [OpenFlow controller and application references](https://github.com/MeshSr/of-ctrl)
+* [OpenFlow switch software supporting ONetSwitch hardware flow tables.](https://github.com/MeshSr/ofs-hw)
+* [OpenFlow switch software running software flow tables ONLY.
+](https://github.com/MeshSr/ofs-sw)
+
 _By 2014 Q4, all the versions are from Vivado 2013.4_
 
-###Xilinx Data Sheets and User Guides  
+##Xilinx Data Sheets and User Guides  
 
 * Zynq Product Table [`Download`](http://www.xilinx.com/support/documentation/selection-guides/zynq7000-product-table.pdf)  
 * Zynq Overview `DS190` [`Download`](http://www.xilinx.com/support/documentation/data_sheets/ds190-Zynq-7000-Overview.pdf)    
