@@ -1,6 +1,6 @@
 # Summary
 
-* About this wiki
+* [About this wiki](chapters/about_this_wiki.md)
 * [Introduction](README.md)
 * [workflow](chapters/workflow.md)
    * [Prepare Boot Medium](chapters/boot-mediummd.md)
