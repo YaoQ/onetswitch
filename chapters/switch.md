@@ -1,4 +1,4 @@
-# Switch
+# Switch reference design on ONetSwitch30
 
 ##Intro  
 The switch reference design provides a set of board-specific projects.  
@@ -20,7 +20,6 @@ _Demo runs at **u-boot** level._
 | Packet Rate     | 5.95Mpps = 1.488Mpps/port * 4 port @1000Mbps |
 | MAC Table       | 16 entries (for test only, can be set larger.) |
 
-###Project List  
 
 | Board | Project |
 | ----- | ------- |
