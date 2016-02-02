@@ -3,7 +3,8 @@
         "comment",
         "sharing",
         "ga",
-        "baidu"
+        "baidu",
+        "autocover"
     ],
     "pluginsConfig": {
         "comment": {
