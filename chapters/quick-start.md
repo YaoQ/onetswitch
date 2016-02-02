@@ -1,11 +1,11 @@
-###Intro  
+##Introduction
 An ONetSwitch enables users in different development roles to build a complete networking system in a single node. Users can build the embedded system either from scratch, or based on some pre-built images.  
 In either way, getting-started projects would help you
 * to get acquainted with the board and its components  
 * to make quick hardware tests on the main silicon and its peripherals  
 * to understand the usage and be ready for next-stage development  
 
-###Project List  
+##Project List  
 * [Zynq PS Test](https://github.com/MeshSr/wiki/wiki/GSG-ZynqPSTest)  
 _Project to verify the clocks, resets, memories, etc at the ARM CPU side._  
 * [IBERT](https://github.com/MeshSr/wiki/wiki/GSG-IBERT)  
