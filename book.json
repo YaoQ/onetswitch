@@ -1,7 +1,8 @@
 {
     "plugins": [
         "comment",
-        "sharing"
+        "sharing",
+        "ga"
     ],
     "pluginsConfig": {
         "comment": {
