@@ -10,6 +10,6 @@
 * [repo](chapters/repo.md)
 * [Reference Design](chapters/ref-design.md)
 * [Hardware Design](chapters/hardware-design.md)
-* Software Design
+* [Software Design](chapters/software-design.md)
 * [Miscellaneous](chapters/docs.md)
 
