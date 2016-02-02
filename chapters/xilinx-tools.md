@@ -33,3 +33,6 @@ The Xilinx tools provide the following cross toolchains:
 |Microblaze little endian|microblazeel-xilinx-linux-gnu-|
 |Microblaze big endian|microblaze-xilinx-linux-gnu-|
 |PowerPC|powerpc-eabi-|
+
+## Ref:
+1. http://www.wiki.xilinx.com/Install+Xilinx+Tools
