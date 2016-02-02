@@ -9,4 +9,5 @@
 * [repo](chapters/repo.md)
 * [Reference Design](chapters/ref-design.md)
 * [Hardware Design](chapters/hardware-design.md)
+* docs
 
