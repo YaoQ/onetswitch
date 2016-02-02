@@ -30,13 +30,14 @@ ONetSwitch30
 
 ##Block Diagram  
 
-![](../images/ons30-hw-block.png)  
+![](./images/ons30-hw-block.png)  
 
 ##Board Layout  
 
-![](../images/ons30-hw-layout-1.png)  
+![](./images/ons30-hw-layout-1.png)  
 
-![](../images/ons30-hw-layout-2.png)  
+
+![](./images/ons30-hw-layout-2.png)  
 
 ##Specification
 For details of the board hardware, please download the [ONetSwitch30 Hardware User Guide](https://github.com/MeshSr/wiki/blob/master/doc/msr-ons30-hwug.pdf).
