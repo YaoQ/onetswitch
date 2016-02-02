@@ -7,4 +7,5 @@
    * [Install Xilinx Tools](chapters/xilinx-tools.md)
 * [Getting Started](chapters/quick-start.md)
 * [repo](chapters/repo.md)
+* Refernce Designs
 
