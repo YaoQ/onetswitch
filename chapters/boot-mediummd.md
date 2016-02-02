@@ -2,9 +2,9 @@
 
 ## Input Files Required
 
-1. [boot.bin](https://raw.githubusercontent.com/MeshSr/onetswitch30/master/ons30-app11-ref_nic/ready-to-download/boot.bin)
-2. [uImage]()
-3. [rootfs]()
+1. [Precompiled boot.bin for Reference NIC demo](https://raw.githubusercontent.com/MeshSr/onetswitch30/master/ons30-app11-ref_nic/ready-to-download/boot.bin)
+2. [Precompiled uImage](https://github.com/MeshSr/common-bin/tree/master/kernel)
+3. [rootfs](https://github.com/MeshSr/common-bin/tree/master/rootfs)
 
 
 ## Output Files Produced
