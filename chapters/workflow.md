@@ -11,7 +11,7 @@ For any layer or component in this hierarchy, you can either download the pre-bu
 ## Get Prepared
 * Prepare the Boot Medium  
 Xilinx Zynq SoC offers different types for system booting, on your demand.  
-Here in the GitHub for an ONetSwitch, the SD boot is chosen as default. An FAT partition in the size of 512MB is used for storing the boot and kernel images, while an EXT partition typically larger than 1GB is for the root file system and the applications(e.g. OpenFlow switch software).  
+Here in the GitHub for an ONetSwitch, **the SD boot is chosen as default**. An FAT partition in the size of 512MB is used for storing the boot and kernel images, while an EXT partition typically larger than 1GB is for the root file system and the applications(e.g. OpenFlow switch software).  
 For the detailed how-to, please refer to Xilinx Wiki [Prepare Boot Medium](http://www.wiki.xilinx.com/Prepare+Boot+Medium).  
 * Setup a Serial Console  
 It is a must to use the USB-UART when running an interactive program on the platform or debugging. Here's a helpful link on Xilinx Wiki [Setup a Serial Console](http://www.wiki.xilinx.com/Setup+a+Serial+Console).    
