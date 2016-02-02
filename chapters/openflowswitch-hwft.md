@@ -2,6 +2,8 @@
 
 ## Introduction
 
+![](../images/openflow-switch.gif)
+
 The OpenFlowSwitch(HWFT, with Hardware Flow Table) reference design provides a set of board-specific projects.  
 
 This design achieves a hardware accelerated OpenFlow switch, using multiple stages of FPGA-implemented hardware flow tables, which are cascaded with software flow tables inside the vSwitch running in the CPU.  
