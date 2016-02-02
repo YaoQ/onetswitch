@@ -14,7 +14,7 @@ ONetSwitch30
   * Main Silicon _XC7Z030-2SBG485_
   * Power Supply _DC 12V_
   * Primary Config. _TF card_
-  * Auxiliary Config. _QSPI flash/JTAG_
+  * Auxiliary Config. _QSPI flash/JTAG
 * Processing System
   * Processor _Dual ARM Cortex-A9@800MHz_
   * Cache _(L1)32KB Inst. + 32KB Data per core; (L2)512KB; (OCM)256KB_
@@ -43,5 +43,7 @@ ONetSwitch30
 
 ![](./images/ons30-hw-layout-2.png)  
 
-##Specification
-For details of the board hardware, please download the [ONetSwitch30 Hardware User Guide](https://github.com/MeshSr/wiki/blob/master/doc/msr-ons30-hwug.pdf).
+## Download
+* [Hardware User Guide](https://github.com/MeshSr/wiki/blob/master/doc/msr-ons30-hwug.pdf)
+* [Wiki](http://www.linksprite.com/wiki/index.php5?title=ONetSwitch30)
+* [Github repository](https://github.com/MeshSr)
