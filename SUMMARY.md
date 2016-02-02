@@ -6,5 +6,5 @@
    * [Setup a Serial Console](chapters/serial-console.md)
    * [Install Xilinx Tools](chapters/xilinx-tools.md)
 * [Projects](chapters/quick-start.md)
-* repo
+* [repo](chapters/repo.md)
 
