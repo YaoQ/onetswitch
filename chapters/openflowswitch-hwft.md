@@ -3,6 +3,7 @@
 ## Introduction
 
 ![](../images/openflow-switch.gif)
+An OpenFlow switch is a software program or hardware device that forwards packets in a software-defined networking (SDN) environment. OpenFlow switches are either based on the OpenFlow protocol or compatible with it.
 
 The OpenFlowSwitch(HWFT, with Hardware Flow Table) reference design provides a set of board-specific projects.  
 
