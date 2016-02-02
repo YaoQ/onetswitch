@@ -2,7 +2,8 @@
     "plugins": [
         "comment",
         "sharing",
-        "ga"
+        "ga",
+        "baidu"
     ],
     "pluginsConfig": {
         "comment": {
