@@ -43,7 +43,7 @@ ONetSwitch30
 
 ![](./images/ons30-hw-layout-2.png)  
 
-## Download
+## More information
 * [Hardware User Guide](https://github.com/MeshSr/wiki/blob/master/doc/msr-ons30-hwug.pdf)
 * [Wiki](http://www.linksprite.com/wiki/index.php5?title=ONetSwitch30)
 * [Github repository](https://github.com/MeshSr)
