@@ -8,5 +8,5 @@
 * [Getting Started](chapters/quick-start.md)
 * [repo](chapters/repo.md)
 * [Refernce Design](chapters/ref-design.md)
-* Hardware Design
+* [Hardware Design](chapters/hardware-design.md)
 
