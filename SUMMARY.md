@@ -9,6 +9,7 @@
 * [Getting Started](chapters/quick-start.md)
 * [Reference Design](chapters/ref-design.md)
    * [OpenFlowSwitch-HWFT](chapters/openflowswitch-hwft.md)
+   * NIC
 * [Hardware Design](chapters/hardware-design.md)
 * [Software Design](chapters/software-design.md)
 * [Miscellaneous](chapters/docs.md)
