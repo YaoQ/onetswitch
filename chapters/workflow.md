@@ -9,17 +9,17 @@ The figure below from [Xilinx Wiki](http://www.wiki.xilinx.com/) shows a high le
 For any layer or component in this hierarchy, you can either download the pre-built images for quick use, or modify then generate it by yourself in the way described below.  
 
 ## Get Prepared
-* **Prepare the Boot Medium  **
+* **Prepare the Boot Medium  **  
 Xilinx Zynq SoC offers different types for system booting, on your demand.  
 Here in the GitHub for an ONetSwitch, **the SD boot is chosen as default**. An FAT partition in the size of 512MB is used for storing the boot and kernel images, while an EXT partition typically larger than 1GB is for the root file system and the applications(e.g. OpenFlow switch software).  
 For the detailed how-to, please refer to Xilinx Wiki [Prepare Boot Medium](http://www.wiki.xilinx.com/Prepare+Boot+Medium).  
-* **Setup a Serial Console**  
+* **Setup a Serial Console**    
 It is a must to use the USB-UART when running an interactive program on the platform or debugging. Here's a helpful link on Xilinx Wiki [Setup a Serial Console](http://www.wiki.xilinx.com/Setup+a+Serial+Console).    
-* **Get a Linux Environment**
+* **Get a Linux Environment**  
 Software development on ONetSwitch requires a Linux environment for easy cross compilation.  
 Ubuntu 12.04 LTS x86_64 may lack some needed 32-bit libraries. This can be fixed by installing `ia32-libs`.  
 Ubuntu 14.04 LTS x86_64 may also lack some needed 32-bit libraries. This can be fixed by installing `libc6-i386`. 
-* **Install Xilinx Tools**  
+* **Install Xilinx Tools**    
 Xilinx Vivado and SDK must be installed for ONetSwitch development. 
 [Download](http://www.xilinx.com/support/download.html)  
 Notice that, by 2014 Q4, all our projects are developed with Vivado 2013.4.
