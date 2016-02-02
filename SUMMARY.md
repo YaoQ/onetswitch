@@ -4,7 +4,7 @@
 * [workflow](chapters/workflow.md)
    * [Prepare Boot Medium](chapters/boot-mediummd.md)
    * [Setup a Serial Console](chapters/serial-console.md)
-   * Install
+   * [Install Xilinx Tools](chapters/xilinx-tools.md)
 * [Quick Start](chapters/quick-start.md)
 * repo
 
