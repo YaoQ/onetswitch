@@ -4,7 +4,7 @@ This guide will explain where and how to install the USB drivers and how to inst
 
 ##Downloading and installing USB to UART drivers
 
-When using a Xilinx Development Board with a USB UART port use your mini-B USB cable to connect the USB UART port on the board to a PC. If the driver for this CP210x USB to UART bridge is recognized by your PC you may go to the next section, suggested HyperTerminal. If your USB to UART is not automatically recognized, the driver can be found and downloaded from the Silicon Labs website linked below.
+When using a Xilinx Development Board with a USB UART port use your mini-B USB cable to connect the USB UART port on the board to a PC. If the driver for this CP210x USB to UART bridge is recognized by your PC you may go to the next section, suggested HyperTerminal. If your USB to UART is not automatically recognized, the diver can be found and downloaded from the Silicon Labs website linked below.
 
 Silicon Labs Website and installation process:
 1. Go to: [Silicon Laboratories](http://www.silabs.com/products/mcu/Pages/USBtoUARTBridgeVCPDrivers.aspx)
@@ -25,7 +25,7 @@ Common terminal emulators are:
 
 But there are plenty more. Just choose the one that fits you.
 
-Connection Settings
+## Connection Settings
 The settings for the serial connection may differ from board to board, but a good guess (and they work for [zynq](http://www.wiki.xilinx.com/Zynq+AP+SoC)) are these settings:
 * baud rate = 115200
 * data bits = 8
@@ -34,27 +34,29 @@ The settings for the serial connection may differ from board to board, but a goo
 * parity = none
 
 The serial device depends on your operating system and cable connection. On Windows the serial devices are usually called comN (N = 1, 2, 3, ...).
+
 On Linux you'll find the serial devices in the /dev directory. Real serial devices are usually ttySN, UART via USB may be called ttyUSBN (again N = 1, 2, 3, ...).
 
-Configuring Putty (Windows)
+## Configuring Putty (Windows)
 1. Open you putty
-2. Once open, select the option of Serial connection
-.
-start.png
-Open Hyper Terminal (Putty)
-
-3. Then select Select Serial in the Category section.
+2. Once open, select the option of **Serial** connection  
+![](http://www.wiki.xilinx.com/file/view/start.png/424488896/367x327/start.png)
+3. Then select **Select** Serial in the Category section.
 inlkbuthgrxfthcygukgyftrgetrxychtgyjhbkblknm;l.png
 
 4. To set the "Serial line to connect to" you must open the device manager to see which COM your board is connected.
-To open you device manager go to Start -> (type in search) Device Manager
+To open you device manager go to **Start ->** (type in search) **Device Manager**
 Go to the "Ports (COM & LPT)" section and look what COM your Silicon Labs USB to UART bridge is connected to
 5. Write in the correct COM that your board is connected to.
 6. Baud, section specific to the board, thus check the Getting started guide for the board that you have to get the correct baud rate.
 
-Configuring minicom (Linux)
+## Configuring minicom (Linux)
 Minicom should be started with the -D <serial device> command line switch e.g.
+```
 minicom -D /dev/ttyUSB0
-
+```
 In minicom hit ctrl+a z, to get the help up. Navigate to options->serial port setup and configure the line according to your target platform.
-zynq_tty_minicom.png
+![zynq_tty_minicom.png](http://www.wiki.xilinx.com/file/view/zynq_tty_minicom.png/435622536/648x434/zynq_tty_minicom.png)
+
+## Ref
+1. http://www.wiki.xilinx.com/Setup+a+Serial+Console
