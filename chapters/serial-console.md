@@ -20,8 +20,8 @@ Silicon Labs website driver download
 ## Terminal Emulators
 Common terminal emulators are:
 * [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) : Select under Windows on Intel X86 "putty.exe" (the very first link)
-* [TeraTerm
-minicom
+* [TeraTerm](http://www.ayera.com/teraterm/)
+* [minicom](http://alioth.debian.org/projects/minicom)
 But there are plenty more. Just choose the one that fits you.
 
 Connection Settings
