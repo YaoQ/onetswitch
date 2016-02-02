@@ -20,9 +20,9 @@ Software development on ONetSwitch requires a Linux environment for easy cross c
 Ubuntu 12.04 LTS x86_64 may lack some needed 32-bit libraries. This can be fixed by installing `ia32-libs`.  
 Ubuntu 14.04 LTS x86_64 may also lack some needed 32-bit libraries. This can be fixed by installing `libc6-i386`. 
 * **Install Xilinx Tools**  
-Xilinx Vivado and SDK must be installed for ONetSwitch development. [Download](http://www.xilinx.com/support/download.html)  
-
-Notice that, by 2014 Q4, all our projects are developed with Vivado 2013.4.  
+Xilinx Vivado and SDK must be installed for ONetSwitch development. 
+[Download](http://www.xilinx.com/support/download.html)  
+Notice that, by 2014 Q4, all our projects are developed with Vivado 2013.4.
 When working in a Linux environment, especially for software developers, remember to setup the environment variables for cross compiler and the Vivado/SDK tools.  
 
 ```bash
@@ -33,14 +33,15 @@ source <path-to-installation>/Vivado/<version>/settings64.sh
 
 ## Use Pre-Built Images  
 The pre-built images can be fetched mainly from  
-* [common-bin](https://github.com/MeshSr/common-bin)  
+* **[common-bin](https://github.com/MeshSr/common-bin)**  
 This repo stores the common FSBL, SSBL(u-boot), Linux kernel(uImage) and root file system(rootfs), as well as the SDN/OpenFlow executables. It is easy to find them in the repo according to the folder and file names.  
 The boot loaders are board-dedicated, while the kernel image and the rootfs are applicable to all ONetSwitch boards.  
-* ready-to-download  
-This is a sub-folder associated with each project, usually contains the FPGA image(system.bit) and the project-specific devicetree blob(devicetree.dtb).  
-The boot.bin, which is created by Xilinx SDK, always consists of the common FSBL and u-boot from common-bin above, and the project-specific system.bit.  
+* **ready-to-download**  
+This is a sub-folder associated with each project, usually contains the FPGA image(**system.bit**) and the project-specific devicetree blob(**devicetree.dtb**).  
+The **boot.bin**, which is created by Xilinx SDK, always consists of the common FSBL and u-boot from common-bin above, and the project-specific system.bit.  
 
-An example here to prepare for an OpenFlow software switch (ofs-sw) on ONetSwitch30 using pre-built images.  
+An example here to prepare for an OpenFlow software switch (ofs-sw) on ONetSwitch30 using pre-built images. 
+
 You need to collect following items and make copies of them to the FAT partition.  
 
 | File | Repo | Link |
