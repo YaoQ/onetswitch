@@ -1,4 +1,4 @@
-# Refernce Design
+# Reference Design
 
 ###Intro  
 An ONetSwitch dedicates to networking applications, as what the product name implies. The 'All-Programmable' allows the users to get any of their inspiration realized by customizing the gateware and/or the software.  
