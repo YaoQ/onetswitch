@@ -1,7 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
 * About this wiki
+* [Introduction](README.md)
 * [workflow](chapters/workflow.md)
    * [Prepare Boot Medium](chapters/boot-mediummd.md)
    * [Setup a Serial Console](chapters/serial-console.md)
