@@ -22,15 +22,17 @@ Common terminal emulators are:
 * [Putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) : Select under Windows on Intel X86 "putty.exe" (the very first link)
 * [TeraTerm](http://www.ayera.com/teraterm/)
 * [minicom](http://alioth.debian.org/projects/minicom)
+
 But there are plenty more. Just choose the one that fits you.
 
 Connection Settings
-The settings for the serial connection may differ from board to board, but a good guess (and they work for Zynq) are these settings:
-baud rate = 115200
-data bits = 8
-stop bits = 1
-flow control = none
-parity = none
+The settings for the serial connection may differ from board to board, but a good guess (and they work for [zynq](http://www.wiki.xilinx.com/Zynq+AP+SoC)) are these settings:
+* baud rate = 115200
+* data bits = 8
+* stop bits = 1
+* flow control = none
+* parity = none
+
 The serial device depends on your operating system and cable connection. On Windows the serial devices are usually called comN (N = 1, 2, 3, ...).
 On Linux you'll find the serial devices in the /dev directory. Real serial devices are usually ttySN, UART via USB may be called ttyUSBN (again N = 1, 2, 3, ...).
 
