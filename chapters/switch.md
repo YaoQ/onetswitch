@@ -96,5 +96,4 @@ For MAC register offset and description, please refer to [Xilinx PG138](#).
 * Connect two PCs to any two of the four ports, with IPv4 set in the same subnet.  
 * Configure the registers inside PHY devices for initialization.  
   * (For ONS30) [vsc8574-setup.tcl](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/res/vsc8574-setup.tcl) should be used.  
-  * (For ONS45) [bcm5464_delay_mode.tcl](https://github.com/MeshSr/onetswitch45/blob/master/ons45-app21-ref_switch/ready-to-download/res/bcm5464_delay_mode.tcl) should be used to adjust the delay mode.  
 * Ping each other, should get the response.
