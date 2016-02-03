@@ -59,7 +59,7 @@ _Demo runs at **u-boot** level._
 
 ##Block Diagram  
 
-![](https://github.com/MeshSr/wiki/blob/master/images/app-demo/ons-l2sw-blockdiag.png)  
+![](../images/app-demo/ons-l2sw-blockdiag.png)  
 
 ##Design Outline  
 ###Clocks  
@@ -78,7 +78,7 @@ Total 4. One interrupts per _AXI Ethernet_ i.e. MAC.
 
 ###Core Design  
 
-![](https://github.com/MeshSr/wiki/blob/master/images/app-demo/ons-l2sw-core.png)  
+![](../images/app-demo/ons-l2sw-core.png)  
 
 ##Address Map  
 For Zynq PS address map, please refer to Appx. B of [Xilinx UG585](#).  
