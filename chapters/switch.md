@@ -2,7 +2,10 @@
 
 ##Intro  
 The switch reference design provides a set of board-specific projects.  
+
 This design implements a traditional Layer-2 switch at Zynq PL, running without Linux while status can be monitored by u-boot.  
+
+![](../images/top.jpg)
 
 _Demo runs at **u-boot** level._  
 
@@ -20,41 +23,38 @@ _Demo runs at **u-boot** level._
 | Packet Rate     | 5.95Mpps = 1.488Mpps/port * 4 port @1000Mbps |
 | MAC Table       | 16 entries (for test only, can be set larger.) |
 
-
 | Board | Project |
 | ----- | ------- |
-|ONetSwitch20|[ons20-app21-ref_switch](https://github.com/MeshSr/onetswitch20/tree/master/ons20-app21-ref_switch)|
 |ONetSwitch30|[ons30-app21-ref_switch](https://github.com/MeshSr/onetswitch30/tree/master/ons30-app21-ref_switch)|
-|ONetSwitch45|[ons45-app21-ref_switch](https://github.com/MeshSr/onetswitch45/tree/master/ons45-app21-ref_switch)|
 
-##Pre-Built Images  
-* For quick start demo.  
+##Pre-Built Images
+* For quick start demo.
 
-| File         | ONetSwitch20 | ONetSwitch30 | ONetSwitch45 |
-| ----         |:------------:|:------------:|:------------:|
-| boot.bin     |[`Download`](https://github.com/MeshSr/onetswitch20/blob/master/ons20-app21-ref_switch/ready-to-download/boot.bin) |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/boot.bin) |[`Download`](https://github.com/MeshSr/onetswitch45/blob/master/ons45-app21-ref_switch/ready-to-download/boot.bin) |
-| devicetree   | `N/A` | `N/A` | `N/A` |
-| kernel       | `N/A` | `N/A` | `N/A` |
-| rootfs (EXT) | `N/A` | `N/A` | `N/A` |
-| sw-lib       | `N/A` | `N/A` | `N/A` |
-| sw-app       | `N/A` | `N/A` | `N/A` |
+| File         | ONetSwitch30 |
+| ----         |:------------:|
+| boot.bin     |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/boot.bin)
+| devicetree   | `N/A` | 
+| kernel       | `N/A` | 
+| rootfs (EXT) | `N/A` | 
+| sw-lib       | `N/A` | 
+| sw-app       | `N/A` | 
 
 * For image assembling.
 
-| File         | ONetSwitch20 | ONetSwitch30 | ONetSwitch45 |
-| ----         |:------------:|:------------:|:------------:|
-| system.bit   |[`Download`](https://github.com/MeshSr/onetswitch20/blob/master/ons20-app21-ref_switch/ready-to-download/res/onetswitch_top.bit) |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/res/onetswitch_top.bit) |[`Download`](https://github.com/MeshSr/onetswitch45/blob/master/ons45-app21-ref_switch/ready-to-download/res/onetswitch_top.bit) |
-| dt source    | `N/A` | `N/A` | `N/A` |
-| fsbl         |[`Download`](https://github.com/MeshSr/common-bin/blob/master/fsbl/fsbl-ons20.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/fsbl/fsbl-ons30.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/fsbl/fsbl-ons45.elf) |
-| u-boot (FAT) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons20-ram.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons30-ram.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons45-ram.elf) |
-| u-boot (EXT) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons20-ext.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons30-ext.elf) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons45-ext.elf) |
-| rootfs (FAT) | `N/A` | `N/A` | `N/A` |
+| File         | ONetSwitch30 | 
+| ----         |:------------:|
+| system.bit   |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/res/           onetswitch_top.bit) |
+| dt source    | `N/A` | 
+| fsbl         |[`Download`](https://github.com/MeshSr/common-bin/blob/master/fsbl/fsbl-ons30.elf) |
+| u-boot (FAT) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons30-ram.elf) |
+| u-boot (EXT) |[`Download`](https://github.com/MeshSr/common-bin/blob/master/u-boot/u-boot-ons30-ext.elf) |
+| rootfs (FAT) | `N/A` | 
 
 * Additional init./config. script.
 
-| File         | ONetSwitch20 | ONetSwitch30 | ONetSwitch45 |
-| ----         |:------------:|:------------:|:------------:|
-| script       | `N/A` |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/res/vsc8574-setup.tcl) |[`Download`](https://github.com/MeshSr/onetswitch45/blob/master/ons45-app21-ref_switch/ready-to-download/res/bcm5464_delay_mode.tcl) |
+| File         | ONetSwitch30 | 
+| ----         |:------------:|
+| script       | `N/A` |[`Download`](https://github.com/MeshSr/onetswitch30/blob/master/ons30-app21-ref_switch/ready-to-download/res/   vsc8574-setup.tcl) |
 
 
 ##Block Diagram  
